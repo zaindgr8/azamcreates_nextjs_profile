@@ -66,7 +66,7 @@ const azamvideo = () => {
                       decimal="."
                       start={0.0}
                       end={1.3}
-                    />
+                    />M+
                   </span>
                 </strong>
                 <span className="text-lg">Transactions</span>
@@ -83,7 +83,7 @@ const azamvideo = () => {
                       decimal=""
                       start={0}
                       end={593}
-                    />
+                    />+
                   </strong>
                 </strong>
                 <span className="text-lg">Clients</span>
