@@ -2,7 +2,7 @@ import React from 'react'
 
 const Azammessage = () => {
   return (
-    <div className="about-text align-items-center g-4 justify-content-between row">
+    <div className="about-text align-items-center g-4 justify-content-between row mb-5">
       <div className="col-md-12 col-lg-7">
         <div className="row g-3 g-sm-4 align-items-center">
           {/* Image */}

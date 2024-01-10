@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
               </div>
               {/* Start Card Background Image */}
-              <div className="card-sketch w-full mb-[10vh]">
+              <div className="card-sketch w-full mb-[8vh]">
                 <img
                   src="assets/img/azmot.jpeg"
                   alt=""
