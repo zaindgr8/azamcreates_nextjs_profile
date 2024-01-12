@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <AOSInit/>
       <body className={inter.className}>  
       <ImportBs/>
-        <div>{children}</div>
+        <div className=''>{children}</div>
       </body>
     </html>
   )
