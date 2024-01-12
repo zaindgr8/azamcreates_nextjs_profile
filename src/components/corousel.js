@@ -88,7 +88,7 @@ const Carousel = () => {
         <div className=" post grid-post" data-aos="fade" data-aos-delay={300}>
           <div className="grid-post__thumb position-relative">
             <Link
-              href="blog-details"
+              href="/"
               className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
@@ -119,7 +119,7 @@ const Carousel = () => {
               {/* /.End Meta Info */}
               {/* Start Post Title */}
               <h5 className="post-title fw-semibold fs-19 mb-3">
-                <Link href="#">
+                <Link href="/">
                   It is an honor to serve clients of esteemed positions from
                   prestigious organizations.
                 </Link>
@@ -137,7 +137,7 @@ const Carousel = () => {
             data-aos-delay={400}
           >
             <Link
-              href="blog-details"
+              href="/"
               className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
@@ -185,7 +185,7 @@ const Carousel = () => {
             data-aos-delay={400}
           >
             <Link
-              href="blog-details"
+              href="/"
               className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
@@ -231,7 +231,7 @@ const Carousel = () => {
         <div className="post grid-post" data-aos="fade" data-aos-delay={500}>
           <div className="grid-post__thumb position-relative">
             <Link
-              href="blog-details"
+              href="/"
               className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
@@ -275,7 +275,7 @@ const Carousel = () => {
         <div className="post grid-post" data-aos="fade" data-aos-delay={500}>
           <div className="grid-post__thumb position-relative">
             <Link
-              href="blog-details"
+              href="/"
               className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
@@ -321,7 +321,7 @@ const Carousel = () => {
         <div className="post grid-post" data-aos="fade" data-aos-delay={600}>
           <div className="grid-post__thumb position-relative">
             <Link
-              href="blog-details"
+              href="/"
               className="alixgn-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
@@ -367,7 +367,7 @@ const Carousel = () => {
         <div className="post grid-post" data-aos="fade" data-aos-delay={600}>
           <div className="grid-post__thumb position-relative">
             <Link
-              href="blog-details"
+              href="/"
               className="alixgn-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
@@ -411,7 +411,7 @@ const Carousel = () => {
         <div className="post grid-post" data-aos="fade" data-aos-delay={600}>
           <div className="grid-post__thumb position-relative">
             <Link
-              href="blog-details"
+              href="/"
               className="alixgn-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
             >
               <figure className="w-full h-[45vh] overflow-hidden">
