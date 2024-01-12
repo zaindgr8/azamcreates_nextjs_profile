@@ -101,8 +101,7 @@ const Carousel = () => {
               <div className="bottom-0 opacity-0 position-absolute start-0 thumb-content top-0 w-100 z-1">
                 <div className="position-absolute text-center top-50 w-100">
                   <h4 className="d-inline-block fs-12 fw-medium l-spacing-2 link text-white">
-                    Personal Event
-                    <i className="fa fa-angle-right text-white" />
+                    Corporate Meeting
                   </h4>
                 </div>
               </div>
@@ -113,16 +112,16 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">Renovation</div>
+                <div className="text-primary fw-medium">Met Maj Gen Abid</div>
                 <span className="vr" />
-                <div>jun 23, 2023</div>
+                <div>Jul 21, 2023</div>
               </div>
               {/* /.End Meta Info */}
               {/* Start Post Title */}
               <h5 className="post-title fw-semibold fs-19 mb-3">
                 <Link href="#">
-                  There are many variations of passages of Lorem Ipsum
-                  available.
+                  It is an honor to serve clients of esteemed positions from
+                  prestigious organizations.
                 </Link>
               </h5>
               {/* /.End Post Title */}
@@ -151,8 +150,7 @@ const Carousel = () => {
               <div className="bottom-0 opacity-0 position-absolute start-0 thumb-content top-0 w-100 z-1">
                 <div className="position-absolute text-center top-50 w-100">
                   <h4 className="d-inline-block fs-12 fw-medium l-spacing-2 link text-white">
-                    Continue Reading
-                    <i className="fa fa-angle-right text-white" />
+                    Corporate Event
                   </h4>
                 </div>
               </div>
@@ -162,15 +160,16 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">Construction</div>
+                <div className="text-primary fw-medium">Meet My Team</div>
                 <span className="vr" />
-                <div>jun 23, 2023</div>
+                <div>March 10, 2021</div>
               </div>
               {/* /.End Meta Info */}
               {/* Start Post Title */}
               <h5 className="post-title fw-semibold fs-19 mb-3">
                 <Link href="#">
-                  All the Lorem Ipsum generators on the Internet tend to repeat
+                  Led a team of accomplished realtors, successfully achieving
+                  our goals.
                 </Link>
               </h5>
               {/* /.End Post Title */}
@@ -300,7 +299,7 @@ const Carousel = () => {
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
                 <div className="text-primary fw-medium">
-                  Appreciation by PM Pakistan
+                  Appreciation by President Pakistan
                 </div>
                 <span className="vr" />
                 <div>Feb 16, 2020</div>
@@ -309,7 +308,7 @@ const Carousel = () => {
               {/* Start Post Title */}
               <h5 className="post-title fw-semibold fs-17 mb-3">
                 <Link href="#">
-                  Prime Minister Arif Alvi, who commended our endeavors in real
+                  President Arif Alvi, who commended our endeavors in real
                   estate sector.
                 </Link>
               </h5>
