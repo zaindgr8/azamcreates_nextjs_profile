@@ -121,7 +121,7 @@ export default function Header() {
               <div className="d-flex justify-between py-3 items-center  w-full">
                 {/* Left-aligned ul */}
                 <div>
-                  <ul className="text-gray-400 font-bold flex gap-x-5">
+                  <ul className="text-gray-400 md:text-md text-sm  font-bold flex gap-x-5">
                     <Link href="">
                       <li>HOME</li>
                     </Link>
@@ -138,7 +138,7 @@ export default function Header() {
                 </div>
 
                 {/* Right-aligned div */}
-                <div className="flex text-gray-400 items-center mr-4">
+                <div className=" md:text-gray-400 text-white items-center mr-4 md:text-sm md:flex hidden">
                   TOP TIER | REAL ESTATE EXPERT
                 </div>
               </div>

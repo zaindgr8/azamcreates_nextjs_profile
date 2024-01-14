@@ -46,7 +46,7 @@ const Firstsection = () => {
                   initial={{ opacity: 0, x: 50 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 1 }}
-                  className="max-w-xl font-thin text-gray-900"
+                  className="max-w-5xl font-thin text-gray-900"
                 >
                   A budding entrepreneur commenced his Real Estate journey a
                   decade ago, achieving notable success not only in Pakistan but
