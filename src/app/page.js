@@ -15,11 +15,11 @@ import Azammessage from "./azam/azammessage";
 import Footer from "@/components/Footer";
 import Azampersonal from "./azam/azampersonal";
 import Corousal from "../components/corousel"
+import Layout from "@/components/Layout";
 
 export default function HomeTwo() {
   return (
-    <>
-      <Header />
+    <Layout>
       <FirstSection />
       <Azamvision />
       <Azamvideo />
@@ -29,7 +29,6 @@ export default function HomeTwo() {
       <AzamProjects />
       <Azamteam />
       <Azammessage />
-      <Footer />
-    </>
+    </Layout>
   );
 }
