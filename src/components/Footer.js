@@ -12,7 +12,7 @@ export default function Footer() {
         <ScrollTop />
         <footer
           className="main-footer footer-dark background-image"
-          data-image-src="assets/img/wall-sketch.png"
+          data-image-src="assets/img/azdp.jpeg"
         >
           <div className="container pt-4">
             {/* Start Card Contact */}

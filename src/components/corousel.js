@@ -46,7 +46,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s2.jpg"
+                  src="assets/img/blog/s2.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -93,7 +93,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s4.jpg"
+                  src="assets/img/blog/s4.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -142,7 +142,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s5.jpg"
+                  src="assets/img/blog/s5.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -190,7 +190,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s3.jpg"
+                  src="assets/img/blog/s3.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -236,7 +236,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s6.jpg"
+                  src="assets/img/blog/s6.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -280,7 +280,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s10.jpg"
+                  src="assets/img/blog/s10.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -326,7 +326,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s12.jpg"
+                  src="assets/img/blog/s12.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -372,7 +372,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s16.jpg"
+                  src="assets/img/blog/s16.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -416,7 +416,7 @@ const Carousel = () => {
             >
               <figure className="w-full h-[45vh] overflow-hidden">
                 <img
-                  src="assets/img/blog/s8.jpg"
+                  src="assets/img/blog/s8.JPG"
                   className="w-full h-full object-cover"
                   alt=""
                 />
