@@ -13,11 +13,11 @@ const azamportfolio = () => {
           >
             {/* Start Title */}
             <h1 className="hero-header_title display-2 fw-bold text-capitalize">
-              <p className="text-gray-400">
+              <p className="text-gray-800">
                 PROPERTY
                 <br />
               </p>
-              <p className="text-blue-900">VISIONARY</p>
+              <p className="text-gray-900">VISIONARY</p>
             </h1>
             {/* /.End Title */}
             {/* Start Text */}

@@ -14,15 +14,15 @@ const Azamvision = () => {
           >
             {/* Start Title */}
             <h1 className="hero-header_title display-2 fw-bold text-capitalize">
-              <p className="text-gray-400">
+              <p className="text-gray-800">
                 PROPERTY
                 <br />
               </p>
-              <p className="text-blue-900">VISIONARY</p>
+              <p className="text-gray-900">VISIONARY</p>
             </h1>
             {/* /.End Title */}
             {/* Start Text */}
-            <p className="fs-18 mb-5 text-gray-400">
+            <p className="fs-18 mb-5 text-gray-800">
               Azam is the visionary behind CRESCO RE, the dynamic real estate
               brokerage positioned at the convergence of technology, media,
               entertainment, and education.
@@ -30,10 +30,10 @@ const Azamvision = () => {
             {/* /.End Text */}
             {/* Start Main Search Content */}
             {/* /.End Main Search Content */}
-            <div className="flex flex-col text-gray-400 gap-y-3">
+            <div className="flex flex-col text-gray-800 gap-y-3">
               <p>total transactions in UAE Real Estate</p>
               <span className="flex gap-x-4">
-                <h1 className="text-blue-900 font-bold text-4xl">
+                <h1 className="text-gray-900 font-bold text-4xl">
                   AED 1 Billion +
                 </h1>
                 <p>
@@ -41,20 +41,20 @@ const Azamvision = () => {
                   Successful UAE Realtor
                 </p>
               </span>
-              <div className="border-l border-1 h-26 border-blue-900"></div>
+              <div className="border-l border-1 h-26 border-gray-800"></div>
               <div>
-                <p className="text-blue-900 font-semibold">
+                <p className="text-gray-800 font-semibold">
                   Rank # 1 At Cresco Real Estate as Sales Head in 2024
                 </p>
-                <span className="text-sm text-gray-400">
+                <span className="text-sm text-gray-800">
                   By the team and CEO
                 </span>
               </div>
               <div>
-                <p className="text-blue-900 font-semibold ">
+                <p className="text-gray-800 font-semibold ">
                   1 Million+ Views on Youtube & Instagram in 2024
                 </p>
-                <span className="text-sm text-gray-400">
+                <span className="text-sm text-gray-800">
                   Real Estate social media influencer & coach
                 </span>
               </div>
@@ -62,6 +62,7 @@ const Azamvision = () => {
           </motion.div>
           <div className="col-lg-6 col-xl-6 col-xxl-6 ps-xl-5 d-none d-lg-block">
             <div className="row g-3 g-sm-5 align-items-center">
+
               <div className="col-6">
                 <div className="position-relative">
                   <div className="line-shape-home" />
@@ -87,6 +88,7 @@ const Azamvision = () => {
                   />
                 </div>
               </div>
+              
               <div className="col-6 align-self-end">
                 <div
                   className="overflow-hidden rounded-4"

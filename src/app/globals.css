@@ -1293,7 +1293,7 @@ textarea.form-control {
 .nav-tabs .nav-link {
   border: 0;
   border-radius: 0;
-  color: #686d76;
+  color: #1F2937;
   font-weight: 600;
   position: relative;
   padding: 8px 0;
@@ -1309,8 +1309,8 @@ textarea.form-control {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  color: var(--bs-primary);
-  border-bottom-color: var(--bs-primary);
+  color: #1F2937;
+  border-bottom-color: #1F2937;
   background-color: transparent;
 }
 
@@ -1980,7 +1980,7 @@ textarea.form-control {
 .navbar {
   z-index: 9;
   padding: 1rem 0.75rem;
-  --bs-navbar-color: #2f2e41;
+  --bs-navbar-color: #1F2937;
   --bs-navbar-nav-link-padding-x: 0.7rem;
   --bs-navbar-active-color: var(--bs-primary);
   --bs-navbar-hover-color: var(--bs-primary);
@@ -2020,7 +2020,7 @@ textarea.form-control {
     background-color: rgba(255, 255, 255, .7);
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    --bs-navbar-color: #2c3038;
+    --bs-navbar-color: #1F2937;
   }
 
   .navbar-wrap.has-logo {
@@ -2940,14 +2940,15 @@ textarea.form-control {
   width: 8rem;
   top: -60px;
   left: -60px;
-  background: -o-repeating-linear-gradient(145deg, rgba(255, 255, 255, 0) .8px, var(--bs-primary) 1.6px, var(--bs-primary) 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
-  background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, var(--bs-primary) 1.6px, var(--bs-primary) 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+  background: -o-repeating-linear-gradient(145deg, rgba(255, 255, 255, 0) .8px, #6c757d 1.6px, #6c757d 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+  background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, #6c757d 1.6px, #6c757d 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+
 }
 
 
 .image-bg-shape::after {
   content: '';
-  background-color: var(--bs-primary);
+  background-color:#1F2937;
   height: 100%;
   width: 100%;
   position: absolute;

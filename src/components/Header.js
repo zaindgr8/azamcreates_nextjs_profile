@@ -57,12 +57,16 @@ export default function Header() {
   return (
     <>
       {/* Start Topbar */}
-      <div className="d-none d-lg-block topbar-bg bg-blue-900 text-white">
+      <div className="d-none d-lg-block topbar-bg bg-gray-800 text-white">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-4 col-lg-3 col-xl-4">
               <Link href="/" className="headerLogo">
-                <img className="h-[20vh] mb-2" src="assets/img/a2.png" alt="" />
+                <img
+                  className="h-[20vh] mb-4"
+                  src="assets/img/a5a.png"
+                  alt=""
+                />
               </Link>
             </div>
             <div className="col-md-8 col-lg-9 col-xl-8 d-flex justify-content-end align-items-center">
@@ -89,8 +93,8 @@ export default function Header() {
               className=" border-end navbar-brand pe-3 pe-sm-4 py-0"
               href="/"
             >
-              <img className="logo-dark" src="assets/img/a3.png" alt="" />
-              <img className="logo-white" src="assets/img/a3.png" alt="" />
+              <img className="logo-dark" src="assets/img/a5b.png" alt="" />
+              <img className="logo-white" src="assets/img/a5b.png" alt="" />
             </Link>
             {/* End Navbar Brand */}
             {/* Start Navbar Collapse */}
@@ -123,17 +127,21 @@ export default function Header() {
               {/* End Navbar Collapse Header */}
               <ul className="navbar-nav">
                 <li className="nav-item dropdown">
-                  <Link className="nav-link" href="#" role="button">
+                  <Link
+                    className="nav-link text-gray-800"
+                    href="#"
+                    role="button"
+                  >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="#">
+                  <Link className="nav-link text-gray-800" href="#">
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="#">
+                  <Link className="nav-link text-gray-800" href="#">
                     Contact
                   </Link>
                 </li>
@@ -148,8 +156,8 @@ export default function Header() {
                 data-bs-target="#cartEmpty"
                 className="align-items-center btn cart-button d-none d-xl-flex ms-2 ms-lg-0"
               >
-                <span className="ms-2 text-gray-500 text-md">
-                  Founder/CEO | Managing Director - CRESCO
+                <span className="ms-2 text-gray-800 text-md">
+                  Premium Real Estate Consultant
                 </span>
               </Link>
               {/* For Mobile */}
