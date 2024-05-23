@@ -11,9 +11,9 @@ export const metadata = {
   title: "Azam Creates",
   description: "Azam Creates- Your Premium Realty Consultant!",
   icons: {
-    icon: ["/a1.png?v=4"],
-    apple: ["/a1.png?v4"],
-    shortcut: ["/a1.png"],
+    icon: ["/a5b.png?v=4"],
+    apple: ["/a5b.png?v4"],
+    shortcut: ["/a5b.png"],
   },
 };
 
