@@ -65,7 +65,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">
+                <div className="text-gray-900 fw-medium">
                   Daughter's Birthday
                 </div>
                 <span className="vr" />
@@ -112,7 +112,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">Met Maj Gen Abid</div>
+                <div className="text-gray-900 fw-medium">Met Maj Gen Abid</div>
                 <span className="vr" />
                 <div>Jul 21, 2023</div>
               </div>
@@ -160,7 +160,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">Meet My Team</div>
+                <div className="text-gray-900 fw-medium">Meet My Team</div>
                 <span className="vr" />
                 <div>March 10, 2021</div>
               </div>
@@ -208,7 +208,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">
+                <div className="text-gray-900 fw-medium">
                   Daughter's Birthday
                 </div>
                 <span className="vr" />
@@ -254,7 +254,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">Award Ceremony</div>
+                <div className="text-gray-900 fw-medium">Award Ceremony</div>
                 <span className="vr" />
                 <div>Aug 13, 2018</div>
               </div>
@@ -298,7 +298,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">
+                <div className="text-gray-900 fw-medium">
                   Appreciation by President Pakistan
                 </div>
                 <span className="vr" />
@@ -344,7 +344,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">
+                <div className="text-gray-900 fw-medium">
                   Collaboration with One Eleven
                 </div>
                 <span className="vr" />
@@ -390,7 +390,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">Personal car fleet</div>
+                <div className="text-gray-900 fw-medium">Personal car fleet</div>
                 <span className="vr" />
                 <div>April 01, 2022</div>
               </div>
@@ -434,7 +434,7 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-primary fw-medium">Literary treasures</div>
+                <div className="text-gray-900 fw-medium">Literary treasures</div>
                 <span className="vr" />
                 <div>Sep 07, 2023</div>
               </div>

@@ -12,7 +12,7 @@ const azamvideo = () => {
     <div className="container-fluid p-0">
       <div className="row g-0">
         <div
-          className="col-xl-4 d-xl-flex align-items-xl-center bg-blue-900 px-3 py-5 px-sm-5 px-md-3 px-xxl-5 counter-content__two background-image"
+          className="col-xl-4 d-xl-flex align-items-xl-center bg-gray-900 px-3 py-5 px-sm-5 px-md-3 px-xxl-5 counter-content__two background-image"
           data-image-src="assets/img/png-img/section-bg.png"
         >
           <div className="row g-0 text-center position-relative counter-content__dot">

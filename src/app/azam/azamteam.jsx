@@ -9,12 +9,12 @@ const Azamteam = () => {
             {/* Start Section Header Title */}
             <div className="section-header text-center text-xl-start">
               {/* Start Subtitle */}
-              <div className="bg-soft-primary d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-blue-900">
+              <div className="bg-gray-900 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-white">
                 Proud Realtors
               </div>
               {/* /. End Subtitle */}
               {/* Start Section Header title */}
-              <h2 className="text-blue-900 text-4xl font-bold mb-3  text-capitalize">
+              <h2 className="text-gray-900 text-4xl font-bold mb-3 text-capitalize">
                 Meet My Team
               </h2>
               {/* /.End Section Header Title */}
@@ -37,9 +37,9 @@ const Azamteam = () => {
             {/* Start Card */}
             <div className="team-member">
               <div className="member-header overflow-hidden position-relative rounded-4">
-                <div className="d-block w-full h-44 overflow-hidden position-relative team-avatar-container">
+                <div className="d-block w-full h-[50vh] overflow-hidden position-relative team-avatar-container">
                   <img
-                    src="assets/img/avatar/m1.jpg"
+                    src="assets/img/avatar/2.jpg"
                     className="img-fluid w-full h-full object-cover"
                     alt=""
                   />
@@ -67,7 +67,7 @@ const Azamteam = () => {
               </div>
               {/* Start Avatar Info */}
               <div className="member-info text-center mt-3">
-                <h4 className="mb-2 member-name text-truncate">Margo Pearl</h4>
+                <h4 className="mb-2 member-name text-truncate">Sabrine Touti</h4>
                 <div>
                   She stands out as most committed and enthusiastic advisor.
                 </div>
@@ -80,9 +80,9 @@ const Azamteam = () => {
             {/* Start Card */}
             <div className="team-member">
               <div className="member-header overflow-hidden position-relative rounded-4">
-                <div className="d-block w-full h-44 overflow-hidden position-relative team-avatar-container">
+                <div className="d-block w-full h-[50vh] overflow-hidden position-relative team-avatar-container">
                   <img
-                    src="assets/img/avatar/m2.jpg"
+                    src="assets/img/avatar/5.jpg"
                     className="img-fluid w-full h-full object-cover"
                     alt=""
                   />
@@ -111,7 +111,7 @@ const Azamteam = () => {
               {/* Start Avatar Info */}
               <div className="member-info text-center mt-3">
                 <h4 className="mb-2 member-name text-truncate">
-                  Gulraiz Naveed
+                  Waleed Khan
                 </h4>
                 <div>
                   He serves as an enthusiastic and competitive Sales Head.
@@ -125,9 +125,9 @@ const Azamteam = () => {
             {/* Start Card */}
             <div className="team-member">
               <div className="member-header overflow-hidden position-relative rounded-4">
-                <div className="d-block w-full h-44 overflow-hidden position-relative team-avatar-container">
+                <div className="d-block w-full h-[50vh] overflow-hidden position-relative team-avatar-container">
                   <img
-                    src="assets/img/avatar/m4.jpg"
+                    src="assets/img/avatar/6.jpg"
                     className="img-fluid w-100"
                     alt=""
                   />
@@ -155,7 +155,7 @@ const Azamteam = () => {
               </div>
               {/* Start Avatar Info */}
               <div className="member-info text-center mt-3">
-                <h4 className="mb-2 member-name text-truncate">M. Ismail</h4>
+                <h4 className="mb-2 member-name text-truncate">Doua Reina</h4>
                 <div>
                   Our Creative Head responsible for crafting compelling content.
                 </div>
@@ -168,9 +168,9 @@ const Azamteam = () => {
             {/* Start Card */}
             <div className="team-member">
               <div className="member-header overflow-hidden position-relative rounded-4">
-                <div className="d-block w-full h-44 overflow-hidden position-relative team-avatar-container">
+                <div className="d-block w-full h-[50vh] overflow-hidden position-relative team-avatar-container">
                   <img
-                    src="assets/img/avatar/m3.jpg"
+                    src="assets/img/avatar/7.jpg"
                     className="img-fluid w-full h-full object-cover"
                     alt=""
                   />
@@ -193,12 +193,12 @@ const Azamteam = () => {
                   </li>
                 </ul>
                 <div className="bg-dark bottom-1 end-1 position-absolute px-3 py-1 rounded-5 team-description-wrap text-white z-1">
-                  Human Resources
+                  Sales Consultant
                 </div>
               </div>
               {/* Start Avatar Info */}
               <div className="member-info text-center mt-3">
-                <h4 className="mb-2 member-name text-truncate">Naila Zafar</h4>
+                <h4 className="mb-2 member-name text-truncate">Osama Khalifa</h4>
                 <div>
                   She oversees HR activities and ensures smooth
                   operations.

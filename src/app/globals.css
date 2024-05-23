@@ -1157,8 +1157,8 @@ textarea.form-control {
   text-align: center;
   font-size: .75rem;
   border-radius: 50%;
-  background-color: rgb(10, 115, 192, .1);
-  color: var(--bs-primary);
+  background-color: #212121;
+  color: white;
   -webkit-transform: translate(0, -50%);
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
@@ -2896,7 +2896,7 @@ textarea.form-control {
   height: 2px;
   width: 30px;
   content: '';
-  background: var(--bs-primary);
+  background: #212121;
 }
 
 .member-social {
@@ -2913,6 +2913,7 @@ textarea.form-control {
 
 .team-member:hover .member-social {
   left: 0;
+  background:#212121;
 }
 
 .member-social li a {
@@ -2928,9 +2929,10 @@ textarea.form-control {
   width: 10rem;
   top: -80px;
   left: -70px;
-  background: -o-repeating-linear-gradient(145deg, rgba(255, 255, 255, 0) .8px, var(--bs-primary) 1.6px, var(--bs-primary) 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
-  background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, var(--bs-primary) 1.6px, var(--bs-primary) 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+  background: -o-repeating-linear-gradient(145deg, rgba(255, 255, 255, 0) .8px, black 1.6px, black 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+  background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, black 1.6px, black 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
 }
+
 
 .line-shape-home {
   position: absolute;
@@ -3138,7 +3140,7 @@ textarea.form-control {
   border-radius: 0;
   line-height: 60px;
   margin: 0;
-  background-color: var(--bs-primary);
+  background-color:#212121;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }

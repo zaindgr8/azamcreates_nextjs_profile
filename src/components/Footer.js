@@ -17,12 +17,12 @@ export default function Footer() {
           <div className="container pt-4">
             {/* Start Card Contact */}
             <div
-              className="card-contact bg-blue-900 mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
+              className="card-contact bg-white mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
               data-aos="fade-down"
             >
               <div className="row align-items-center position-relative z-1">
                 <div className="col-md-10 col-lg-8 col-xl-6">
-                  <h2 className="display-6 fw-bold text-capitalize text-white">
+                  <h2 className="display-6 fw-bold text-capitalize text-gray-900">
                     Exploring opportunities in our affiliate marketing program?
                     Join us today!
                   </h2>
@@ -32,12 +32,15 @@ export default function Footer() {
                         type="button"
                         className=" btn-outline-default border-0"
                       >
-                        <i className="fas text-white mr-2 fa-mobile"></i>
-                        <span className="text-white">(123) 456-7890</span>
+                        <i className="fas text-gray-900 mr-2 fa-mobile"></i>
+                        <span className="text-gray-900">(123) 456-7890</span>
                       </button>
                     </div>
                     <div className="col-auto">
-                      <Link href="#" className="fs-17 l-spacing-1 text-white">
+                      <Link
+                        href="#"
+                        className="fs-17 l-spacing-1 text-gray-900"
+                      >
                         <i className="fas fa-envelope fs-15 mr-2"></i>
                         <span>hello@azamcreates.com</span>
                       </Link>
@@ -167,7 +170,7 @@ export default function Footer() {
             <hr className="mb-0 mt-4" />
             <div className="py-4">
               {/* Start Sub Footer Nav */}
-            
+
               {/*  /. End Sub Footer Nav */}
               <div className="align-items-center row mb-2">
                 {/* Start Copy Rights Text */}

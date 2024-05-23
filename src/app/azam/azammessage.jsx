@@ -41,7 +41,7 @@ const Azammessage = () => {
 
       <div className="col-md-12 col-lg-5 ps-xxl-5">
         <div className="text-block">
-          <h6 className="fs-14 fw-bold heading-sm l-spacing-1 position-relative text-blue-900 text-uppercase">
+          <h6 className="fs-14 fw-bold heading-sm l-spacing-1 position-relative text-gray-900 text-uppercase">
             Connect With Me
           </h6>
           <h2 className="mb-4">
@@ -77,7 +77,7 @@ const Azammessage = () => {
           </ul>
           <hr className="mt-5" />
           <blockquote className="blockquote quote-text">
-            <p className="fst-italic mb-0 text-blue-900 ">
+            <p className="fst-italic mb-0 text-gray-900 ">
               “Decade of real estate mastery, over a billion in transactions,
               leading the way in entrepreneurial success.”
             </p>

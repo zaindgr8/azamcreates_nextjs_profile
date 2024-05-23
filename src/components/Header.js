@@ -125,7 +125,7 @@ export default function Header() {
                 {/* End Collapse Close Button */}
               </div>
               {/* End Navbar Collapse Header */}
-              <ul className="navbar-nav">
+              {/* <ul className="navbar-nav">
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link text-gray-800"
@@ -145,7 +145,7 @@ export default function Header() {
                     Contact
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             {/*  /. End Navbar Collapse */}
             <div className="d-flex gap-1 ms-lg-5">

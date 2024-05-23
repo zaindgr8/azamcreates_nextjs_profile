@@ -23,7 +23,7 @@ export default function HomeTwo() {
       <FirstSection />
       <Azamvision />
       <Azamvideo />
-      <div className="p-3">
+      <div className="px-5 mt-4">
         <Corousal />
       </div>
       <AzamProjects />

@@ -12,12 +12,12 @@ const azamprojects = () => {
               data-aos="fade-down"
             >
               {/* Start Subtitle */}
-              <div className="bg-soft-primary d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-blue-900">
+              <div className="bg-gray-900 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-white">
                 COLLABORATIONS
               </div>
               {/* /. End Subtitle */}
               {/* Start Section Header title */}
-              <h2 className="font-bold text-5xl mb-3 text-blue-900 ">
+              <h2 className="font-bold text-5xl mb-3 text-gray-900 ">
                 Witness our achievements!
               </h2>
               {/* /.End Section Header Title */}

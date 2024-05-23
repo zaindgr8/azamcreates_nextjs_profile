@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Azamvision = () => {
   return (
-    <div className="hero-header hero-header__three align-items-center d-flex position-relative header-gradient">
+    <div className="hero-header  hero-header__three align-items-center d-flex position-relative header-gradient">
       <div className="container position-relative">
         <div className="row justify-content-center justify-content-lg-between align-items-center">
           <motion.div
@@ -72,20 +72,13 @@ const Azamvision = () => {
                   >
                     <div className="rounded-4 overflow-hidden position-relative">
                       <img
-                        src="assets/img/about/d1.jpg"
+                        src="assets/img/am1.jpeg"
                         className="img-fluid position-relative image-parallax z-1"
                         alt=""
                       />
                     </div>
                   </div>
-                  <img
-                    src="assets/img/about/d4.jpg"
-                    className="w-450 img-fluid rounded-4 position-absolute shadow card-asset-home z-1"
-                    alt=""
-                    data-aos="zoom-in"
-                    data-aos-easing="ease"
-                    data-aos-delay={400}
-                  />
+               
                 </div>
               </div>
               
@@ -97,7 +90,7 @@ const Azamvision = () => {
                   data-aos-delay={200}
                 >
                   <img
-                    src="assets/img/about/d3.jpg"
+                    src="assets/img/am3.jpeg"
                     className="img-fluid rounded-4 image-parallax"
                     alt=""
                   />
