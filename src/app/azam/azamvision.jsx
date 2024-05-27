@@ -44,7 +44,8 @@ const Azamvision = () => {
               <div className="border-l border-1 h-26 border-gray-800"></div>
               <div>
                 <p className="text-gray-800 font-semibold">
-                  Rank # 1 At Cresco Real Estate as Sales Head in 2024
+                  Rank # 1 At Cresco Real Estate as Sales HeadSales & Operations
+                  Director in 2024
                 </p>
                 <span className="text-sm text-gray-800">
                   By the team and CEO
@@ -52,7 +53,7 @@ const Azamvision = () => {
               </div>
               <div>
                 <p className="text-gray-800 font-semibold ">
-                  1 Million+ Views on Youtube & Instagram in 2024
+                  50 Million+ Views on Youtube & Instagram in 2024
                 </p>
                 <span className="text-sm text-gray-800">
                   Real Estate social media influencer & coach
@@ -62,7 +63,6 @@ const Azamvision = () => {
           </motion.div>
           <div className="col-lg-6 col-xl-6 col-xxl-6 ps-xl-5 d-none d-lg-block">
             <div className="row g-3 g-sm-5 align-items-center">
-
               <div className="col-6">
                 <div className="position-relative">
                   <div className="line-shape-home" />
@@ -78,10 +78,9 @@ const Azamvision = () => {
                       />
                     </div>
                   </div>
-               
                 </div>
               </div>
-              
+
               <div className="col-6 align-self-end">
                 <div
                   className="overflow-hidden rounded-4"

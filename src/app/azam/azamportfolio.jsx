@@ -51,7 +51,7 @@ const azamportfolio = () => {
               </div>
               <div>
                 <p className="text-blue-900 font-semibold ">
-                  1 Million+ Views on Youtube & Instagram in 2024
+                  50 Million+ Views on Youtube & Instagram in 2024
                 </p>
                 <span className="text-sm text-gray-400">
                   Real Estate social media influencer & coach

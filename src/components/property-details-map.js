@@ -99,68 +99,87 @@ function GooglePropertyDetailsMapsComponent() {
     }, [])
 
     return isLoaded ? (
-        <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={center}
-            zoom={zoom}
-            onLoad={onLoad}
-            markers={markers}
-            onUnmount={onUnmount}
-            options={{
-                styles: mapStyles, // Add the custom styles here
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={center}
+        zoom={zoom}
+        onLoad={onLoad}
+        markers={markers}
+        onUnmount={onUnmount}
+        options={{
+          styles: mapStyles, // Add the custom styles here
+        }}
+      >
+        {markers.map(({ id, name, position, description }) => (
+          <MarkerF
+            key={id}
+            position={position}
+            onClick={() => handleActiveMarker(id)}
+            icon={{
+              url: "https://findhusly.vercel.app/assets/img/map/marker.png",
+              scaledSize: { width: 40, height: 40 },
             }}
+          >
+            {activeMarker === id ? (
+              <InfoWindowF onCloseClick={() => setActiveMarker(null)}>
+                <div className="infoWindowContent">
+                  <Link
+                    href="property-details"
+                    className="d-block info_content text-dark text-decoration-none"
+                  />
+                  <img
+                    src="assets/img/map/01.jpg"
+                    className="img-fluid mb-3 rounded-3 w-100"
+                    alt=""
+                  />
+                  <h5>{name}</h5>
+                  <div className="text-warning mb-2">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star-half-stroke"></i>
+                    <i className="fa-regular fa-star"></i>
+                  </div>
+                  <p>{description}</p>
+                  <Link href="#" className="directions-link">
+                    <i className="fa-solid fa-compass me-2"></i>Directions
+                  </Link>
+                  <Link
+                    href="tel:+(123) 456-7890"
+                    className="directions-link ms-2"
+                  >
+                    <i className="fa-solid fa-phone me-2"></i>+971 52 130 7749
+                  </Link>
+                </div>
+              </InfoWindowF>
+            ) : null}
+          </MarkerF>
+        ))}
 
-        >
-            {
-            markers.map(({ id, name, position, description }) => (
-                <MarkerF
-                    key={id}
-                    position={position}
-                    onClick={() => 
-                        handleActiveMarker(id)
-                    }
-                    icon={{
-                      url:"https://findhusly.vercel.app/assets/img/map/marker.png",
-                      scaledSize:{width:40, height:40}
-                    }}
-
-
-                >
-                    {activeMarker === id ? (
-                        <InfoWindowF onCloseClick={() => setActiveMarker(null)}>
-                           <div className="infoWindowContent">
-                           <Link href="property-details" className="d-block info_content text-dark text-decoration-none" />
-                                <img src="assets/img/map/01.jpg" className="img-fluid mb-3 rounded-3 w-100" alt=""/>
-                                    <h5>{name}</h5>
-                                    <div className="text-warning mb-2"><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star-half-stroke"></i><i className="fa-regular fa-star"></i></div>
-                                    <p>{description}</p>
-                                    <Link href="#" className="directions-link"><i className="fa-solid fa-compass me-2"></i>Directions</Link>
-                                    <Link href="tel:+(123) 456-7890" className="directions-link ms-2"><i className="fa-solid fa-phone me-2"></i>(123) 456-7890</Link>
-                           </div>
-                        </InfoWindowF>
-                    ) : null}
-
-                </MarkerF>
-            ))}
-
-            {selectedMarkerIndex !== null && (
-                <InfoWindow
-                    position={{
-                        lat: markers[selectedMarkerIndex][1],
-                        lng: markers[selectedMarkerIndex][2],
-                    }}
-                    onCloseClick={() => {
-                        setSelectedMarkerIndex(null); // Close the info window when it's clicked
-                    }}
-                >
-                    {/* Your info window content */}
-                    <div dangerouslySetInnerHTML={{ __html: infoWindowContent[selectedMarkerIndex] }}></div>
-                </InfoWindow>
-            )}
-            { /* Child components, such as markers, info windows, etc. */}
-            <></>
-        </GoogleMap>
-    ) : <></>
+        {selectedMarkerIndex !== null && (
+          <InfoWindow
+            position={{
+              lat: markers[selectedMarkerIndex][1],
+              lng: markers[selectedMarkerIndex][2],
+            }}
+            onCloseClick={() => {
+              setSelectedMarkerIndex(null); // Close the info window when it's clicked
+            }}
+          >
+            {/* Your info window content */}
+            <div
+              dangerouslySetInnerHTML={{
+                __html: infoWindowContent[selectedMarkerIndex],
+              }}
+            ></div>
+          </InfoWindow>
+        )}
+        {/* Child components, such as markers, info windows, etc. */}
+        <></>
+      </GoogleMap>
+    ) : (
+      <></>
+    );
 }
 
 export default GooglePropertyDetailsMapsComponent;

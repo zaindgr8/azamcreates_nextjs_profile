@@ -33,7 +33,7 @@ export default function Footer() {
                         className=" btn-outline-default border-0"
                       >
                         <i className="fas text-gray-900 mr-2 fa-mobile"></i>
-                        <span className="text-gray-900">(123) 456-7890</span>
+                        <span className="text-gray-900">+971 52 130 7749</span>
                       </button>
                     </div>
                     <div className="col-auto">
@@ -68,7 +68,7 @@ export default function Footer() {
                   <div className=" mb-3 d-inline-block">
                     {/* Start Qr Code Image */}
                     <img
-                      src="assets/img/azftr.jpg"
+                      src="assets/img/azftr.jpeg"
                       className="mb-0 object-cover h-[20vh] rounded-lg"
                       height="146"
                       width="146"

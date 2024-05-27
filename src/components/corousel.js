@@ -84,6 +84,7 @@ const Carousel = () => {
           </div>
         </div>
         {/* /.End Grid Post */}
+
         {/* Start Grid Post */}
         <div className=" post grid-post" data-aos="fade" data-aos-delay={300}>
           <div className="grid-post__thumb position-relative">
@@ -122,6 +123,51 @@ const Carousel = () => {
                 <Link href="/">
                   It is an honor to serve clients of esteemed positions from
                   prestigious organizations.
+                </Link>
+              </h5>
+              {/* /.End Post Title */}
+            </div>
+          </div>
+        </div>
+        {/* /.End Grid Post */}
+
+        {/* Start Grid Post */}
+        <div className=" post grid-post" data-aos="fade" data-aos-delay={300}>
+          <div className="grid-post__thumb position-relative">
+            <Link
+              href="/"
+              className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
+            >
+              <figure className="w-full h-[45vh] overflow-hidden">
+                <img
+                  src="assets/img/blog/ofce.jpg"
+                  className="w-full h-full object-cover"
+                  alt=""
+                />
+              </figure>
+              <div className="bottom-0 opacity-0 position-absolute start-0 thumb-content top-0 w-100 z-1">
+                <div className="position-absolute text-center top-50 w-100">
+                  <h4 className="d-inline-block fs-12 fw-medium l-spacing-2 link text-white">
+                    Corporate Meeting
+                  </h4>
+                </div>
+              </div>
+            </Link>
+            {/* /.image */}
+          </div>
+          <div className="post-info text-center">
+            <div className="bg-white m-auto position-relative post-header z-1 pb-0">
+              {/* Start Meta Info */}
+              <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
+                <div className="text-gray-900 fw-medium">CRESCO Sales Seminar</div>
+                <span className="vr" />
+                <div>May 18, 2024</div>
+              </div>
+              {/* /.End Meta Info */}
+              {/* Start Post Title */}
+              <h5 className="post-title fw-semibold fs-19 mb-3">
+                <Link href="/">
+                  speaker at the seminar on sales with the Cresco official team
                 </Link>
               </h5>
               {/* /.End Post Title */}
@@ -390,7 +436,9 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-gray-900 fw-medium">Personal car fleet</div>
+                <div className="text-gray-900 fw-medium">
+                  Personal car fleet
+                </div>
                 <span className="vr" />
                 <div>April 01, 2022</div>
               </div>
@@ -434,7 +482,9 @@ const Carousel = () => {
             <div className="bg-white m-auto position-relative post-header z-1 pb-0">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-15 gap-2 hstack text-capitalize mb-1 justify-content-center">
-                <div className="text-gray-900 fw-medium">Literary treasures</div>
+                <div className="text-gray-900 fw-medium">
+                  Literary treasures
+                </div>
                 <span className="vr" />
                 <div>Sep 07, 2023</div>
               </div>

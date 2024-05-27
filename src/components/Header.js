@@ -98,55 +98,7 @@ export default function Header() {
             </Link>
             {/* End Navbar Brand */}
             {/* Start Navbar Collapse */}
-            <div className="navbar-collapse" id="navbarSupportedContent">
-              {/* Start Navbar Collapse Header */}
-              <div className="align-items-center border-bottom d-flex d-lg-none justify-content-between mb-3 navbar-collapse__header pb-3">
-                {/* Start Brand Logo For Mobile */}
-                <div className="collapse-brand flex-shrink-0">
-                  <Link href="/">
-                    <img src="assets/img/us.png" alt="" />
-                  </Link>
-                </div>
-                {/* End Brand Logo For Mobile */}
-                {/* Start Collapse Close Button */}
-                <div className="flex-grow-1 ms-3 text-end">
-                  <button
-                    type="button"
-                    className="bg-transparent border-0 collapse-close p-0 position-relative"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span></span> <span></span>
-                  </button>
-                </div>
-                {/* End Collapse Close Button */}
-              </div>
-              {/* End Navbar Collapse Header */}
-              {/* <ul className="navbar-nav">
-                <li className="nav-item dropdown">
-                  <Link
-                    className="nav-link text-gray-800"
-                    href="#"
-                    role="button"
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link text-gray-800" href="#">
-                    About Us
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link text-gray-800" href="#">
-                    Contact
-                  </Link>
-                </li>
-              </ul> */}
-            </div>
+          
             {/*  /. End Navbar Collapse */}
             <div className="d-flex gap-1 ms-lg-5">
               {/* Start Cart Button */}
@@ -165,24 +117,14 @@ export default function Header() {
                 href="/"
                 className="btn btn-primary d-none d-sm-inline-block d-xl-none"
               >
-                <i className="fa-solid fa-cart-shopping"></i>
+                {/* <i className="fa-solid fa-cart-shopping"></i> */}
               </Link>
               {/*  /. End Cart Button */}
               {/* Start Login & Signup Button */}
 
               {/* /. End Login & Signup Button */}
               {/*  Start Navbar Toggler Buton */}
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
+          
               {/*  /. End Navbar Toggler Buton */}
             </div>
           </nav>
@@ -191,7 +133,7 @@ export default function Header() {
       </div>
       {/* /.End of navbar */}
       {/* Start Cart Empty Modal */}
-      <div
+      {/* <div
         className="modal fade"
         id="cartEmpty"
         tabIndex={-1}
@@ -216,7 +158,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* /.End Cart Empty Modal */}
     </>
   );
