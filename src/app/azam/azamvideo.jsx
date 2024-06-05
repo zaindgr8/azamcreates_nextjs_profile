@@ -30,7 +30,7 @@ const azamvideo = () => {
                     decimals={""}
                     decimal=""
                     start={0}
-                    end={5}
+                    end={50}
                   />
                   M+
                 </strong>
@@ -48,7 +48,7 @@ const azamvideo = () => {
                     decimals={""}
                     decimal=""
                     start={0}
-                    end={10}
+                    end={70}
                   />
                   M+
                 </strong>
@@ -65,8 +65,8 @@ const azamvideo = () => {
                       decimals={1}
                       decimal="."
                       start={0.0}
-                      end={1.3}
-                    />M+
+                      end={1}
+                    />B+
                   </span>
                 </strong>
                 <span className="text-lg">Transactions</span>

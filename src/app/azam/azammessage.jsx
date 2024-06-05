@@ -84,9 +84,9 @@ const Azammessage = () => {
             <cite className="fs-14 fw-semibold quote-attribution text-dark">
               — Mohammad Azam Tariq
             </cite>
-            <div className="mt-3 signature ">
+            {/* <div className="mt-3 signature ">
               <img src="assets/img/signature.png" width={150} height={150} alt="" />
-            </div>
+            </div> */}
           </blockquote>
         </div>
       </div>
