@@ -78,7 +78,7 @@ const Azammessage = () => {
           <hr className="mt-5" />
           <blockquote className="blockquote quote-text">
             <p className="fst-italic mb-0 text-gray-900 ">
-              “Decade of real estate mastery, over a billion in transactions,
+              “Decade of a real estate mastery, over a billion in transactions,
               leading the way in entrepreneurial success.”
             </p>
             <cite className="fs-14 fw-semibold quote-attribution text-dark">
