@@ -1988,12 +1988,13 @@ textarea.form-control {
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  background-color: #fff;
   -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
           box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-  background-color: var(--bs-primary);
+  background-color: #fff;  /* Removed the original background color */
+  background-color: #212121;  /* Added Bootstrap's gray-900 class */
   --bs-navbar-toggler-icon-bg: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="%230a73c0" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>');
 }
+
 
 @media(max-width: 991px) {
   .nav-container {

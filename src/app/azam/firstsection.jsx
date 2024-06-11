@@ -48,7 +48,13 @@ const FSection = () => {
               exit={{ opacity: 0 }}
               className="absolute inset-0 object-cover"
             >
-              <Image src={slide.image} className="object-cover" layout="fill" alt={slide.text} />
+              {/* <Image src={slide.image} className="object-cover" layout="fill" alt={slide.text} /> */}
+              <Image
+                src="/azm.jpeg"
+                className="object-cover"
+                layout="fill"
+                alt={slide.text}
+              />
             </motion.div>
           ))}
         </AnimatePresence>
@@ -59,13 +65,13 @@ const FSection = () => {
             alt=""
             className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0"
           /> */}
-          <video
+          {/* <video
             autoPlay
             muted
             loop
             src="assets/img/Website.mp4"
             className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0"
-          />
+          /> */}
           {/* <Slideshow className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0" /> */}
         </div>
 
@@ -77,8 +83,7 @@ const FSection = () => {
               {/* <div className=" #DAB852 w-[35vh] font-bold text-white d-inline-block fw-medium mb-5 text-lg rounded-pill section-header__subtitle text-capitalize">
                 Cresco Real Estate
               </div> */}
-              <h1 className=" hero-header_title text-white fw-bold mb-5 text-5xl leading-[8vh]">
-              </h1>
+              <h1 className=" hero-header_title text-white fw-bold mb-5 text-5xl leading-[8vh]"></h1>
             </div>
           </div>
         </div>

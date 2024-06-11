@@ -48,15 +48,12 @@ export default function Header() {
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
     <>
-      {/* Start Topbar */}
       <div className="d-none d-lg-block topbar-bg bg-gray-800 text-white">
         <div className="container">
           <div className="row align-items-center">
@@ -77,8 +74,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-      {/* /.End Topbar */}
-      {/* Start Navbar */}
       <div
         className={
           hasLogo
@@ -88,20 +83,14 @@ export default function Header() {
       >
         <div className="container-lg nav-container position-relative">
           <nav className="custom-navbar navbar navbar-expand-lg">
-            {/* Start Navbar Brand */}
             <Link
               className=" border-end navbar-brand pe-3 pe-sm-4 py-0"
               href="/"
             >
-              <img className="logo-dark" src="assets/img/a5b.png" alt="" />
-              <img className="logo-white" src="assets/img/a5b.png" alt="" />
+              <img className="logo-dark" src="assets/img/a5a.png" alt="" />
+              <img className="logo-white" src="assets/img/a5a.png" alt="" />
             </Link>
-            {/* End Navbar Brand */}
-            {/* Start Navbar Collapse */}
-          
-            {/*  /. End Navbar Collapse */}
             <div className="d-flex gap-1 ms-lg-5">
-              {/* Start Cart Button */}
               <Link
                 href="/"
                 data-bs-toggle="modal"
@@ -112,54 +101,15 @@ export default function Header() {
                   Premium Real Estate Consultant
                 </span>
               </Link>
-              {/* For Mobile */}
               <Link
                 href="/"
                 className="btn btn-primary d-none d-sm-inline-block d-xl-none"
               >
-                {/* <i className="fa-solid fa-cart-shopping"></i> */}
-              </Link>
-              {/*  /. End Cart Button */}
-              {/* Start Login & Signup Button */}
-
-              {/* /. End Login & Signup Button */}
-              {/*  Start Navbar Toggler Buton */}
-          
-              {/*  /. End Navbar Toggler Buton */}
+              </Link>         
             </div>
           </nav>
         </div>
-        {/* /.End of navbar */}
       </div>
-      {/* /.End of navbar */}
-      {/* Start Cart Empty Modal */}
-      {/* <div
-        className="modal fade"
-        id="cartEmpty"
-        tabIndex={-1}
-        aria-labelledby="cartEmptyLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h1 className="modal-title fs-5" id="cartEmptyLabel">
-                Your Cart
-              </h1>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              />
-            </div>
-            <div className="modal-body">
-              <p className="py-5 text-center">No items found.</p>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* /.End Cart Empty Modal */}
     </>
   );
 }
